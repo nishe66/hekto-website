@@ -3,7 +3,11 @@ import Hero from '../components/Hero'
 import Logos from '../components/Logos'
 import ShopexOffer from '../components/ShopexOffer'
 import Newslater from '../components/Newslater'
-import FeaturedProducts from '../components/Featuredproducts'
+import Featuredproducts from '../components/Featuredproducts'
+
+
+
+
 
 
 
@@ -11,7 +15,7 @@ const Home = () => {
   return (
     <div>
     <Hero/>
-    <FeaturedProducts/>
+    <Featuredproducts/>
     <ShopexOffer/>
     <Newslater/>
     <Logos/>
