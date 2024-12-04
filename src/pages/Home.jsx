@@ -1,9 +1,9 @@
 import React from 'react'
 import Hero from '../components/Hero'
 import Logos from '../components/Logos'
-import FeaturedProducts from '../components/Featuredproducts'
 import ShopexOffer from '../components/ShopexOffer'
 import Newslater from '../components/Newslater'
+import FeaturedProducts from '../components/Featuredproducts'
 
 
 
