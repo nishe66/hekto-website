@@ -1,14 +1,19 @@
 import React from 'react'
-import Header from '../components/Header'
-import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
-import Footer from '../components/Footer'
 import Logos from '../components/Logos'
+import FeaturedProducts from '../components/Featuredproducts'
+import ShopexOffer from '../components/ShopexOffer'
+import Newslater from '../components/Newslater'
+
+
 
 const Home = () => {
   return (
     <div>
     <Hero/>
+    <FeaturedProducts/>
+    <ShopexOffer/>
+    <Newslater/>
     <Logos/>
      
     </div>

@@ -9,7 +9,10 @@ export default {
       fontFamily:{
         'Josefin': ["Josefin Sans", "sans-serif"],
         'Lato': ["Lato", "sans-serif"]
-      }
+      },
+      backgroundImage: {
+        'newsletter': "url('/src/assets/newslater.png')", 
+      },
     },
   },
   plugins: [],
