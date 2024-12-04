@@ -3,7 +3,8 @@ import Hero from '../components/Hero'
 import Logos from '../components/Logos'
 import ShopexOffer from '../components/ShopexOffer'
 import Newslater from '../components/Newslater'
-import Featuredproducts from '../components/Featuredproducts'
+import Featuredproducts from '../components/Featuredproduct'
+
 
 
 
