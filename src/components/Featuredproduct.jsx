@@ -5,7 +5,7 @@ import { BsCart3 } from "react-icons/bs";
 import { FaRegHeart } from "react-icons/fa6";
 import { LuSearchX } from "react-icons/lu";
 
-const Featuredproducts = () => {
+const Featuredproduct = () => {
   let data = useContext(apiData);
   return (
     <section className='py-24'>
@@ -47,4 +47,4 @@ const Featuredproducts = () => {
   )
 }
 
-export default Featuredproducts
+export default Featuredproduct
