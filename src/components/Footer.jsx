@@ -3,6 +3,7 @@ import fologo from '../assets/logo.png'
 import { FaFacebookF } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import { FaTwitter } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
     <footer className='pt-10 bg-[#EEEFFB] '>
@@ -46,7 +47,7 @@ const Footer = () => {
           <div>
             <h4 className='text-[#000000] font-Josefin font-semibold text-[22px] pb-10'>Pages</h4>
             <ul className='text-[#8A8FB9] font-Lato'>
-              <li className='pb-5'>Blog</li>
+              <li className='pb-5'> <Link to='/blog'>Blog</Link></li>
               <li className='pb-5'>Browse the Shop</li>
               <li className='pb-5'>Category</li>
               <li className='pb-5'>Pre-Built Pages</li>

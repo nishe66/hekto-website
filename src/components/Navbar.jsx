@@ -1,16 +1,18 @@
-import React from 'react'
+import React  from 'react'
 import Logo from '../assets/logo.png'
 import { Link } from 'react-router-dom'
 import { FaAngleDown } from "react-icons/fa6";
 import { IoSearch } from "react-icons/io5";
+
+
 const Navbar = () => {
   return (
-    <nav className='py-5 font-Lato z-50'>
-      <div className='container mx-auto'>
+    <nav className='py-5 z-50 font-Lato'>
+      <div className='container mx-auto '>
         <div className='flex items-center justify-between'>
           <div className='flex items-center gap-24'>
             <div className=''>
-              <Link to='/'><img src={Logo} alt="imagenotfound" /></Link>
+              <Link to='/'><img className='inline-block object-cover' src={Logo} alt="imagenotfound" /></Link>
             </div>
             <div className='z-20'>
               <ul className='flex items-center gap-9'>
@@ -25,20 +27,21 @@ const Navbar = () => {
                 <li><Link to='/about-us' className='text-[#0D0E43]'>About Us</Link></li>
                 <li><Link to='*' className='text-[#0D0E43]'>Products</Link></li>
                 <li><Link to='/blog' className='text-[#0D0E43]'>Blog</Link></li>
-                <li><Link to='*' className='text-[#0D0E43]'>Shop</Link></li>
+                <li><Link to='/shop' className='text-[#0D0E43]'>Shop</Link></li>
                 <li><Link to='/contact' className='text-[#0D0E43]'>Contact</Link></li>
               </ul>
             </div>
           </div>
           <div className='flex items-center relative'>
-            <input type="text" className='border-2 w-72 h-9 outline-none pl-4' />
+            <input type="text" className='border-2 sm:w-72 w-52 h-9 outline-none pl-4' />
             <button className='absolute top-0 right-0 bg-[#FB2E86] w-12 h-9 flex justify-center items-center text-2xl text-[#FFFFFF]'><IoSearch /></button>
           </div>
         </div>
-      </div>
-
-    </nav>
+     </div>
+     </nav>
   )
 }
 
 export default Navbar
+
+

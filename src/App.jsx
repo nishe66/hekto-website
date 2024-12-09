@@ -6,6 +6,7 @@ import Contact from './pages/Contact';
 import RootLayout from './components/RootLayout';
 import PageNotFound from './pages/PageNotFound';
 import Blog from './pages/Blog';
+import Shop from './pages/Shop';
 
 function App() {
 let myRouter = createBrowserRouter(createRoutesFromElements(
@@ -14,6 +15,7 @@ let myRouter = createBrowserRouter(createRoutesFromElements(
 <Route path='/about-us' element={<About/>}/>
 <Route path='/blog' element={<Blog/>}/>
 <Route path='/contact' element={<Contact/>}/>
+<Route path='/shop' element={<Shop/>}/>
 <Route path='*' element={<PageNotFound/>}/>
 </Route>
 ))

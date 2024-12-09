@@ -7,7 +7,7 @@ import { FaRegHeart } from "react-icons/fa";
 import { LiaShoppingCartSolid } from "react-icons/lia";
 const Header = () => {
   return (
-    <header className='bg-[#7E33E0] py-3 text-[#F1F1F1] font-Josefin font-semibold'>
+    <header className='bg-[#7E33E0] py-3  text-[#F1F1F1] font-Josefin font-semibold'>
       <div className='container mx-auto'>
         <div className='flex items-center justify-between'>
           <div className='flex items-center gap-12'>

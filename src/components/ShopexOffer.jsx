@@ -6,7 +6,7 @@ import hoursimg from '../assets/24hours.png'
 
 const ShopexOffer = () => {
     return (
-        <section className=''>
+        <section className='pt-14'>
             <div className='container mx-auto'>
                 <div>
                     <div className='font-Josefin font-bold text-[#151875] text-center text-4xl'>
@@ -36,6 +36,7 @@ const ShopexOffer = () => {
                     </div>
                 </div>
             </div>
+            
         </section>
     )
 }

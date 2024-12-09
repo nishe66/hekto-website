@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Newslater = () => {
     return (
-        <section className='bg-newsletter bg-cover bg-center h-[462px]'>
+        <section className='bg-newsletter bg-cover bg-center h-[400px]'>
             <div className='container mx-auto flex h-full items-center justify-center'>
                 <div className='text-center w-1/2'>
                     <h2 className='text-[#151875] font-Josefin font-bold text-4xl pb-6 leading-[54px]'>Get Leatest Update By Subscribe
